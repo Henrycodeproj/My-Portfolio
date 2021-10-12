@@ -466,6 +466,11 @@ i{
     }
 }
 @media screen and (max-width:1065px){
+    .about{
+        background: url(./pictures/s2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
     .nav-ul{
         font-size:15px;
         display:none;
@@ -525,8 +530,10 @@ i{
 }
 @media screen and (max-width:400px){
     .about{
-        background-attachment: local;
+        background-attachment: none;
         background: url(./pictures/s2.jpg);
+        background-position: center;
+        background-size: cover;
     }
     .project-text{
         font-size:50px;
