@@ -530,7 +530,7 @@ i{
 }
 @media screen and (max-width:400px){
     .about{
-        background-attachment: none;
+        background-attachment: local;
         background: url(./pictures/s2.jpg);
         background-position: center;
         background-size: cover;
