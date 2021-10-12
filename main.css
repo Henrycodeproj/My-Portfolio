@@ -496,9 +496,6 @@ i{
     }
 }
 @media screen and (max-width:711px) {
-    #intro-h1{
-        /* font-size:6rem */
-    }
     #intro-h5{
         font-size:1.5rem
     }
@@ -510,18 +507,11 @@ i{
     }    
 }
 @media screen and (max-width:814px){
-    .about-me{
-        /* padding:0; */
-    }
     .project-text{
         margin: 50px;
     }
     .project-section{
         padding:0;
-    }
-    .card{
-        /* margin:0; */
-        /* margin-bottom: 20px; */
     }
 }
 @media screen and (max-width:400px){
@@ -530,8 +520,6 @@ i{
     }
     .language{
         padding:5px 0px;
-    }
-    .introduction{
     }
     .contain{
         width:100%;
