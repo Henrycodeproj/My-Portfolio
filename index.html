@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+    crossorigin="anonymous"> <!--font awesome-->
+    <title>Henry's Portfolio</title>
+</head>
+<body>
+    <header class = "header">
+        <nav>
+            <div><a class = "logo" href="">HL</a></div>
+            <div class = "hamburger" id = "hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class = "nav-ul" id = nav-ul>
+                <li><a href="">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="https://github.com/Henrycodeproj" target="blank">Github</a></li>
+                <li><a href="./Resume.pdf" target="blank">Resume</a></li>
+                <li><a href="./contact/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class = "about">
+        <div class ="introduction">
+            <div class= "text-container">
+                <h1 id = intro-h1>I'm Henry.</h1>
+                <h5 id = intro-h5>I'm a fullstack software engineer.</h5>
+                <h6 id = intro-h6>Scroll down to explore.</h6>
+                <div class = "hello">
+                    <svg class="arrows">
+                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                  </svg>
+                </div>
+            </div>
+            <!-- <img src="pictures/test5.png" alt=""> -->
+        </div>
+    </section>
+
+    <section class = "project-section" id = "projects">
+        <div class ="project-container reveal">
+            <h2 class = "project-text">Projects</h2>
+            <div class = "wrapper">
+                <div class = "card" id ="card1">
+                        <img src="./pictures/pturtle.jpg" class = "image_angle" alt="">
+                        <div class = "card-container">
+                        <h1 class = "cardhead">Turtle Project</h1>
+                        <p class = "cardpara">A 2D game where two players compete for the most food in  a certain amount of time while creating walls to block opponents.</p>
+                        <a href="https://github.com/Henrycodeproj/Turtle-python-wall-game" target ="blank"><h4 class ="languages cardbtn1">Read more</h4></a>
+                        </div>
+                </div>
+                <div class = "card" id = "card2">
+                    <img src="./pictures/blog1.jpg" class = "image_angle" alt="">
+                    <div class = "card-container">
+                    <h1 class = "cardhead">Blog Project</h1>
+                    <p class = "cardpara">This is my current project. A Fullstack project for users to blog about different types of board games.</p>
+                    <h4 class ="language">Python, Flask, MySQL, Postgres</h4>
+                    </div>
+                </div>
+                <div class = "card" id = "card3">
+                    <img src="./pictures/artificial-intelligence.jpg" class = "image_angle" alt="">
+                    <div class = "card-container">
+                    <h1 class = "cardhead">Future Housing Project</h1>
+                    <p class = "cardpara">This future project will work with python A.I libaries to help predict housing market trends that adjust housing prices.</p>
+                    <h4 class ="language">Python, Pandas, Sql, Css/Html</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class = "about-me">
+            <img src="./pictures/recent.png" alt="" class = "about-photo reveal">
+            <div class = "contain">
+                <h1 class = "about-me-heading">About Me</h1>
+                <p class ="about-me-paragraph">Hi, I am a recent graduate from U.C. Santa Cruz with a B.S. in Cognitive Science and a focus in AI/HCI. I am also a photographer and a pianist on my spare time. I've always liked putting things back together after I break them apart. I always loved bringing my ideas to life, hence the reason I got into software engineering. On my spare time, I like working on projects, attempting/working on leetcode or just playing board games with my friends. I also bike, keep up with stocks and spend time exploring new places. I love socializing and have a love for aquariums as well!</p>
+                <div class = "button-container">
+                <a href="mailto:lihenryhl.work@gmail.com" title = "Send a direct email!" class = "hire">Hire Me</a>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <div class="contact_bar">
+            <a href="https://instagram.com/the_scenery_of_life" title = "Instagram" target="blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/henry.li.1671" title = "Facebook" target="blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.linkedin.com/in/henry-li-5943b8215/" title = "LinkedIn" target="blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Henrycodeproj" title = "Github" target="blank"><i class="fab fa-github-square"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="./script.js" type="text/javascript"></script>
+</html>

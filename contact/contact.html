@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div class="container">  
+      <form action="https://formsubmit.co/lihenryhl@yahoo.com" method="POST" id ="contact">
+          <h3>Contact Me</h3>
+          <h4>Leave your information here and I'll get back to you as soon as possible!</h4>
+            <input placeholder="Name" name = "name" title = "Name" type="text" tabindex="1" required autofocus>
+            <input placeholder="Email Address" name = "email" title ="Email" type="email" tabindex="2" required>
+            <input placeholder="Phone Number (optional)" title ="Phone Number (optional)" type="tel" tabindex="3" name = "number" >
+            <input placeholder="Web Site (optional)" title ="Web Site (optional)" type="url" tabindex="4" name = "website">
+            <textarea placeholder="Message" title ="Message" tabindex="5" name = "message" required></textarea>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+        </form>
+      </div>
+</body>
+</html>
