@@ -84,7 +84,7 @@ nav ul li a:hover{
     align-items: center;
     max-width:100%;
     min-height:100vh;
-    background: url(pictures/s2.jpg);
+    background:url(./pictures/s2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
