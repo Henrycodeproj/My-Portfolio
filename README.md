@@ -1,4 +1,4 @@
 # My-Portfolio
-My portfolio website
+My portfolio website.
 
 https://henryli.info/
