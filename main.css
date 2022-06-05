@@ -264,7 +264,7 @@ img{
 }
 #card1:hover{
     /* transform: scale(1.1); */
-    transform: translateY(-40px);
+    transform: translateY(-20px);
     transition: 1s;
 }
 .bbb{
@@ -272,12 +272,12 @@ img{
 }
 #card2:hover{
     transition: 1s;
-    transform: translateY(-40px);
+    transform: translateY(-20px);
 
 }
 #card3:hover{
     transition: 1s;
-    transform: translateY(-40px);
+    transform: translateY(-20px);
 
 }    
 .image_angle{
